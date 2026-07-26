@@ -505,7 +505,7 @@ checksum = "613afe47fcd5fac7ccf1db93babcb082c5994d996f20b8b159f2ad1658eb5724"
 [[package]]
 name = "chalice-core"
 version = "0.10.2"
-source = "git+ssh://git@github.com/geodesa-ai/chalice.git?rev=6fd13ca87bdecdd4f57783b6468d35db13a34c3f#6fd13ca87bdecdd4f57783b6468d35db13a34c3f"
+source = "git+ssh://git@github.com/geodesa-ai/chalice.git?rev=5cb46a810fb99f2d9784d01c33f4daebe674f598#5cb46a810fb99f2d9784d01c33f4daebe674f598"
 dependencies = [
  "accelerate-src",
  "byteorder",
@@ -537,7 +537,7 @@ dependencies = [
 [[package]]
 name = "chalice-flash-attn"
 version = "0.10.2"
-source = "git+ssh://git@github.com/geodesa-ai/chalice.git?rev=6fd13ca87bdecdd4f57783b6468d35db13a34c3f#6fd13ca87bdecdd4f57783b6468d35db13a34c3f"
+source = "git+ssh://git@github.com/geodesa-ai/chalice.git?rev=5cb46a810fb99f2d9784d01c33f4daebe674f598#5cb46a810fb99f2d9784d01c33f4daebe674f598"
 dependencies = [
  "anyhow",
  "chalice-core",
@@ -548,7 +548,7 @@ dependencies = [
 [[package]]
 name = "chalice-kernels"
 version = "0.10.2"
-source = "git+ssh://git@github.com/geodesa-ai/chalice.git?rev=6fd13ca87bdecdd4f57783b6468d35db13a34c3f#6fd13ca87bdecdd4f57783b6468d35db13a34c3f"
+source = "git+ssh://git@github.com/geodesa-ai/chalice.git?rev=5cb46a810fb99f2d9784d01c33f4daebe674f598#5cb46a810fb99f2d9784d01c33f4daebe674f598"
 dependencies = [
  "cudaforge",
 ]
@@ -556,7 +556,7 @@ dependencies = [
 [[package]]
 name = "chalice-metal-kernels"
 version = "0.10.2"
-source = "git+ssh://git@github.com/geodesa-ai/chalice.git?rev=6fd13ca87bdecdd4f57783b6468d35db13a34c3f#6fd13ca87bdecdd4f57783b6468d35db13a34c3f"
+source = "git+ssh://git@github.com/geodesa-ai/chalice.git?rev=5cb46a810fb99f2d9784d01c33f4daebe674f598#5cb46a810fb99f2d9784d01c33f4daebe674f598"
 dependencies = [
  "dashmap 6.1.0",
  "half",
@@ -571,7 +571,7 @@ dependencies = [
 [[package]]
 name = "chalice-nn"
 version = "0.10.2"
-source = "git+ssh://git@github.com/geodesa-ai/chalice.git?rev=6fd13ca87bdecdd4f57783b6468d35db13a34c3f#6fd13ca87bdecdd4f57783b6468d35db13a34c3f"
+source = "git+ssh://git@github.com/geodesa-ai/chalice.git?rev=5cb46a810fb99f2d9784d01c33f4daebe674f598#5cb46a810fb99f2d9784d01c33f4daebe674f598"
 dependencies = [
  "accelerate-src",
  "chalice-core",
@@ -589,7 +589,7 @@ dependencies = [
 [[package]]
 name = "chalice-transformers"
 version = "0.10.2"
-source = "git+ssh://git@github.com/geodesa-ai/chalice.git?rev=6fd13ca87bdecdd4f57783b6468d35db13a34c3f#6fd13ca87bdecdd4f57783b6468d35db13a34c3f"
+source = "git+ssh://git@github.com/geodesa-ai/chalice.git?rev=5cb46a810fb99f2d9784d01c33f4daebe674f598#5cb46a810fb99f2d9784d01c33f4daebe674f598"
 dependencies = [
  "byteorder",
  "chalice-core",
@@ -825,7 +825,7 @@ dependencies = [
 [[package]]
 name = "cudarc"
 version = "0.19.3"
-source = "git+ssh://git@github.com/geodesa-ai/cudarc.git?rev=d73703979b4cbc0d76ea7890c3c3d3b5e449dffd#d73703979b4cbc0d76ea7890c3c3d3b5e449dffd"
+source = "git+ssh://git@github.com/geodesa-ai/cudarc.git?rev=5ce72f8930429febd2e967ae68b20eea05319fc7#5ce72f8930429febd2e967ae68b20eea05319fc7"
 dependencies = [
  "float8",
  "half",
@@ -1020,7 +1020,7 @@ dependencies = [
  "libc",
  "option-ext",
  "redox_users 0.5.2",
- "windows-sys 0.61.2",
+ "windows-sys 0.59.0",
 ]
 
 [[package]]
@@ -1118,7 +1118,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "39cab71617ae0d63f51a36d69f866391735b51691dbda63cf6f96d042b63efeb"
 dependencies = [
  "libc",
- "windows-sys 0.61.2",
+ "windows-sys 0.59.0",
 ]
 
 [[package]]
@@ -2501,7 +2501,7 @@ version = "0.50.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7957b9740744892f114936ab4a57b3f487491bbeafaf8083688b16841a4240e5"
 dependencies = [
- "windows-sys 0.61.2",
+ "windows-sys 0.59.0",
 ]
 
 [[package]]
@@ -3419,7 +3419,7 @@ dependencies = [
  "once_cell",
  "socket2 0.6.1",
  "tracing",
- "windows-sys 0.60.2",
+ "windows-sys 0.59.0",
 ]
 
 [[package]]
@@ -3758,7 +3758,7 @@ dependencies = [
  "errno",
  "libc",
  "linux-raw-sys 0.11.0",
- "windows-sys 0.61.2",
+ "windows-sys 0.59.0",
 ]
 
 [[package]]
@@ -4305,7 +4305,7 @@ dependencies = [
  "getrandom 0.3.4",
  "once_cell",
  "rustix 1.1.3",
- "windows-sys 0.61.2",
+ "windows-sys 0.59.0",
 ]
 
 [[package]]
@@ -5585,7 +5585,7 @@ version = "0.1.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c2a7b1c03c876122aa43f3020e6c3c3ee5c05081c9a00739faf7503aeba10d22"
 dependencies = [
- "windows-sys 0.61.2",
+ "windows-sys 0.59.0",
 ]
 
 [[package]]
