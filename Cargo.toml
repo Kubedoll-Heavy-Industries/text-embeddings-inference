@@ -45,10 +45,10 @@ rand = "0.9"
 serial_test = "2.0.0"
 intel-mkl-src = { version = "0.8", default-features = false }
 # Geodesa Chalice fork, aligned with Hedron.
-chalice = { package = "chalice-core", git = "ssh://git@github.com/geodesa-ai/chalice.git", rev = "840763f94094686ad7790b049037c455692f6739" }
-chalice-nn = { package = "chalice-nn", git = "ssh://git@github.com/geodesa-ai/chalice.git", rev = "840763f94094686ad7790b049037c455692f6739" }
-chalice-transformers = { package = "chalice-transformers", git = "ssh://git@github.com/geodesa-ai/chalice.git", rev = "840763f94094686ad7790b049037c455692f6739" }
-chalice-flash-attn = { package = "chalice-flash-attn", git = "ssh://git@github.com/geodesa-ai/chalice.git", rev = "840763f94094686ad7790b049037c455692f6739" }
+chalice = { package = "chalice-core", git = "ssh://git@github.com/geodesa-ai/chalice.git", rev = "866031a599a8c1c466dc73413d5c1137aab76424" }
+chalice-nn = { package = "chalice-nn", git = "ssh://git@github.com/geodesa-ai/chalice.git", rev = "866031a599a8c1c466dc73413d5c1137aab76424" }
+chalice-transformers = { package = "chalice-transformers", git = "ssh://git@github.com/geodesa-ai/chalice.git", rev = "866031a599a8c1c466dc73413d5c1137aab76424" }
+chalice-flash-attn = { package = "chalice-flash-attn", git = "ssh://git@github.com/geodesa-ai/chalice.git", rev = "866031a599a8c1c466dc73413d5c1137aab76424" }
 half = { version = "2.3.1", features = ["num-traits"] }
 
 [profile.release]
